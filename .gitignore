@@ -1,0 +1,20 @@
+# Node artifact files
+node_modules/
+.history
+# Applications
+*.app
+*.exe
+*.war
+*.env
+*.env.default
+*.p12
+*.pem
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+*.tsbuildinfo
