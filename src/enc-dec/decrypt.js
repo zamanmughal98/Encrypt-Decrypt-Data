@@ -1,5 +1,5 @@
 import { createDecipheriv } from 'crypto';
-import { algorithm, key } from './lib/common.js';
+import { algorithm, key } from '../lib/common.js';
 
 const decryptModule = (text) => {
   let iv = Buffer.from(text.iv, 'hex');

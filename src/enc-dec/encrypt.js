@@ -1,5 +1,5 @@
 import { createCipheriv } from 'crypto';
-import { algorithm, key, iv } from './lib/common.js';
+import { algorithm, key, iv } from '../lib/common.js';
 
 const encryptModule = (text) => {
   let cipher = createCipheriv(algorithm, Buffer.from(key), iv);
